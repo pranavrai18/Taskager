@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Taskager</string>
+    <string name="open">Open</string>
+
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="terms_and_conditions_text">
+    Welcome to Taskager!\n
+    \n
+    Please read these Terms &amp; Conditions ("Terms", "Terms and Conditions") carefully before using the Taskager app.\n
+    \n
+    1. Acceptance of Terms\n
+    By accessing or using Taskager, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the service.\n
+    \n
+    2. Use of the App\n
+    Taskager is provided for your personal, non-commercial use only.\n
+    You agree not to misuse the app or attempt to access it using a method other than the interface and instructions provided.\n
+    \n
+    3. User Data\n
+    Taskager may store information such as your name, email, and tasks.\n
+    We respect your privacy and do not share your data with third parties without your consent.\n
+    \n
+    4. Intellectual Property\n
+    The app and its original content, features, and functionality are and will remain the exclusive property of the Taskager team.\n
+    \n
+    5. Termination\n
+    We may terminate or suspend access to our service immediately, without prior notice or liability, for any reason whatsoever, including breach of the Terms.\n
+    \n
+    6. Changes to Terms\n
+    We reserve the right to modify or replace these Terms at any time.\n
+    Changes will be effective immediately upon posting.\n
+    \n
+    7. Contact Us\n
+    If you have any questions about these Terms, please contact us at support@taskager.com.\n
+    \n
+    By using Taskager, you acknowledge that you have read, understood, and agree to be bound by these Terms &amp; Conditions.
+</string>
+
+    <string name="privacy_policy_text">
+    Your privacy is important to us at Taskager.\n
+    \n
+    1. Information Collection\n
+    We collect personal information such as your name, email, and tasks to provide a personalized experience. No sensitive data is collected without your consent.\n
+    \n
+    2. Data Usage\n
+    Your data is used solely to enhance your experience within the app.\n
+    We do not sell or share your personal information with third parties.\n
+    \n
+    3. Data Security\n
+    We implement standard security measures to protect your data.\n
+    However, no method of transmission over the Internet is 100% secure.\n
+    \n
+    4. Third-party Services\n
+    Taskager may use third-party services for analytics or notifications.\n
+    These services have their own privacy policies.\n
+    \n
+    5. Changes to Policy\n
+    We may update our Privacy Policy from time to time.\n
+    Any changes will be reflected in this section.\n
+    \n
+    6. Contact Us\n
+    If you have any questions about our Privacy Policy, please contact us at support@taskager.com.\n
+    \n
+    By using Taskager, you agree to this Privacy Policy.
+</string>
+    <string name="settings_icon">Settings icon</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode_icon">Dark mode icon</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language_icon">Language icon</string>
+    <string name="language_amp_region"><![CDATA[Language & Region]]></string>
+    <string name="about_icon">About icon</string>
+    <string name="about_amp_support"><![CDATA[About & Support]]></string>
+    <string name="notify">Dark mode icon</string>
+
+
+</resources>

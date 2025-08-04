@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="8dp">
+
+    <!-- Scrollable Terms & Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Heading -->
+            <TextView
+                android:id="@+id/termsHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms &amp; Conditions"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/termsDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last updated: July 2025"
+                android:textSize="14sp"
+                android:textColor="@color/gray"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/termsContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_and_conditions_text"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Accept button always at bottom -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/acceptButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        app:cornerRadius="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="42dp"/>
+
+</LinearLayout>

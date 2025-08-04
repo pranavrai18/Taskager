@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How was your experience?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+        <RatingBar
+            android:id="@+id/ratingbar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/ratingbtn"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Rating"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/fdb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We would like to hear more from you..."
+            android:textSize="16sp"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="Write your valuable feedback here..."
+            android:inputType="textMultiLine"
+            android:maxLength="250" />
+        <TextView
+            android:id="@+id/charcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 / 250"
+            android:layout_gravity="right"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/submitfeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Feedback"
+            android:visibility="gone"/>
+    </LinearLayout>
+</ScrollView>

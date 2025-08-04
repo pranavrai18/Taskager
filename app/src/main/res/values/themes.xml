@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Taskager" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+   <!-- <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        Customizations for splash
+    </style> -->
+
+    <style name="Theme.Taskager" parent="Base.Theme.Taskager" />
+</resources>
